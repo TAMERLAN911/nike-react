@@ -1,0 +1,25 @@
+img {
+  width: 500px;
+}
+
+.deleteOne {
+  color: red;
+  cursor: pointer;
+}
+.deleteOne:hover {
+  text-decoration: underline;
+}
+
+.btnActive {
+  background-color: green;
+  border: none;
+  border-radius: 3px;
+  height: 25px;
+  color: white;
+  width: auto;
+}
+
+.btnActive:disabled {
+  opacity: 0.5;
+  cursor: no-drop;
+}
